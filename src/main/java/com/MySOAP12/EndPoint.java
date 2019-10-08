@@ -7,7 +7,7 @@ public class EndPoint {
    
         
         public static void main(String[] args) {
-           Endpoint.publish("http://localhost:8081/Calc", new Calculator1());
+           Endpoint.publish("https://arcane-journey-84857.herokuapp.com/", new Calculator1());
         }
 
     }
